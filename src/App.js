@@ -1,16 +1,16 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import CCTV from './components/CCTV';
-import Control from './components/Control';
-import Main from './components/Main';
-import MyPage from './components/MyPage';
-import Nav from './components/Nav';
+import Header from './components/Header';
+import CCTV from './pages/CCTV';
+import Control from './pages/Control';
+import Main from './pages/Main';
+import MyPage from './pages/MyPage';
 
 function App() {
   return (
   <BrowserRouter>
    <div className="App">
-     <Nav/>
+     <Header/>
      <Routes>
       <Route path="/" element={<Main />}/>
       <Route path="/Control" element={<Control />}/>

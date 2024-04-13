@@ -14,15 +14,19 @@ code {
 @font-face {
   font-family: "Pretendard-SemiBold";
   font-weight: normal;
-  src: url("/src/components/fonts/Pretendard-SemiBold.ttf") format("truetype");
+  src: url("./assets/fonts/Pretendard-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Pretendard-Bold";
   font-weight: normal;
-  src: url("/src/components/fonts/Pretendard-Bold.ttf") format("truetype");
+  src: url("./assets/fonts/Pretendard-Bold.ttf") format("truetype");
 }
-
+@font-face {
+  font-family: "DoHyeon-Regular";
+  font-weight: normal;
+  src: url("./assets/fonts/DoHyeon-Regular.ttf") format("truetype");
+}
 body {
   font-family: "Pretendard-SemiBold";
 }

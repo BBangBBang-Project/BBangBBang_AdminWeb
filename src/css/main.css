@@ -1,0 +1,14 @@
+.title{
+    background-color: #D3705B;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.graphContainer{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+}

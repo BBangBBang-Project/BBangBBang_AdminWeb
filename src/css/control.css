@@ -1,0 +1,33 @@
+.storageImage{
+    margin-top: 40px;
+    width: 450px;
+    height: auto; 
+}
+
+.buttonContainer{
+    justify-content: space-around;
+    background-color: "#F3E3D3";
+    margin-top: 20px;
+
+
+}
+
+.openButton{
+    font-family: "DoHyeon-Regular";
+    font-size: 30px;
+    margin-right: 100px;
+    border-radius: 5px; 
+    padding: 10px 30px;
+    background: #F3E3D3;
+    border-color: #F3E3D3;
+    
+}
+
+.closeButton{
+    font-family: "DoHyeon-Regular";
+    font-size: 30px;
+    padding: 10px 30px;
+    background-color: #F3E3D3;
+    border-color: #F3E3D3;
+
+}
