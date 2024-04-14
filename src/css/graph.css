@@ -1,5 +1,31 @@
 .componentTitle{
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Pretendard-Bold';
 
+}
+
+.container{
+    padding: 40px 40px;
+}
+
+.statistics{
+    margin-top: 80px;
+    padding: 40px 20px; 
+}
+
+.sales{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.profit{
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Pretendard-Bold';
+    text-decoration :underline;
+    text-underline-offset: 10px;
+}
+
+.text{
+    font-size: 20px;
 }

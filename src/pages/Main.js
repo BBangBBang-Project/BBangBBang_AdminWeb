@@ -8,8 +8,9 @@ function Main(){
         <div>
             <h1 className='title'>빵 판매 현황</h1>
             <div className='graphContainer'>
+                <Statistics/>
                <Graph/>
-               <Statistics/>
+
             </div>
         </div>
 
