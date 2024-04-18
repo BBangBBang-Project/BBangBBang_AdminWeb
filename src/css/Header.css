@@ -24,15 +24,20 @@
 
 .navbar {
     display: flex;
+    position:relative;
 }
 
 .navbarMenu {
-    font-family: "DoHyeon-Regular";
-    /* font-family: "Pretendard-Bold"; */
+    /* font-family: "DoHyeon-Regular"; */
+    font-family: "Pretendard-Bold";
     font-size: 25px;
     color: black;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 40px;
+    border-right-color: black;
 
-
+}
+.navbarMenu:hover {
+    color: #D3705B;
+    text-decoration : underline;
 }

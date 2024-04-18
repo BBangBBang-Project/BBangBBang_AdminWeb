@@ -14,24 +14,24 @@ const Graph = ()=> {
             <div className="componentTitle">지난 주 판매 수량 TOP 3</div>
             <PieChart width={400} height={400}>
                 <Pie
-                        dataKey="value"
-                        isAnimationActive={false}
-                        data={data}
-                        cx={200}
-                        cy={200}
-                        outerRadius={120}
-                        label className="text"
-                        labelLine={false}>
-                        {
-                        data.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={entry.color} />
-                     ))
-                     }
-                      </Pie>
-                    <Tooltip />
-                    <Legend />
-                    </PieChart>
-                    </div>
+                dataKey="value"
+                isAnimationActive={false}
+                data={data}
+                cx={200}
+                cy={200}
+                outerRadius={120}
+                label className="text"
+                abelLine={false}>
+                  {
+                  data.map((entry, index) => (
+                  <Cell key={`cell-${index}`} fill={entry.color} />
+                 ))
+                 }
+                 </Pie>
+                 <Tooltip />
+                 <Legend />
+                 </PieChart>
+                </div>
     );
 
 }

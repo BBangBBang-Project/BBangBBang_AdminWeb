@@ -1,0 +1,23 @@
+.dropdown {
+    position :absolute;
+    top: calc(100% + 20px);
+    left: 52%;
+    z-index: 1;
+    border: 1px solid #F3E3D3;
+    border-top: none;
+
+
+}
+
+.dropdownItem {
+    font-size:20px;
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    background-color: white;
+}
+
+.dropdownItem:hover {
+    background-color: #f0f0f0;
+}

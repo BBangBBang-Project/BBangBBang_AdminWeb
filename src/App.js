@@ -5,6 +5,7 @@ import CCTV from './pages/CCTV';
 import Control from './pages/Control';
 import Main from './pages/Main';
 import MyPage from './pages/MyPage';
+import Recording from "./pages/Recording";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/Control" element={<Control />}/>
       <Route path="/CCTV" element={<CCTV />}/>
       <Route path="/MyPage" element={<MyPage />}/>
+      <Route path="/Recording" element={<Recording/>}/>
       </Routes>
       </div>
   </BrowserRouter>
