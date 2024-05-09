@@ -16,7 +16,7 @@ function Header(){
         <div className="header">
             <div className="logo">
                 <img src={logoImg} alt="Logo" className="logoImage" />
-                <span className="logoText">BBangBBang</span>
+                <span className="logoText">BBANGBBANG</span>
             </div>
             <div className="navbar">
                 <Link className="navbarMenu" to={'/'}>통계 및 리포트</Link>

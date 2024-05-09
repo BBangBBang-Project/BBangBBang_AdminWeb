@@ -9,7 +9,7 @@ function Main(){
 
     useEffect(() => {
         // API 호출
-        axios.get('http://localhost:8080/seller/sales')
+        axios.get('http://52.79.172.135:8080/seller/sales')
             .then(response => {
                 // API로부터 데이터 가져오기 성공 시
                 setWeeklySales(response.data);
