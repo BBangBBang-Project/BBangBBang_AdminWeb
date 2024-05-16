@@ -1,0 +1,32 @@
+/* OrderList.css */
+
+.order-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.product-name {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.order-quantity {
+    text-align: center;
+    line-height: 70px; /* 이미지 높이와 일치 */
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ddd;
+}
+
+.order-table td {
+    vertical-align: middle; /* 수직 중앙 정렬 */
+}
