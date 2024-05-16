@@ -7,7 +7,7 @@ const OrderPage = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:8080/seller/orders')
+        axios.get('http://52.79.172.135:8080/seller/orders')
             .then(response => {
                 setOrders(response.data);
             })
