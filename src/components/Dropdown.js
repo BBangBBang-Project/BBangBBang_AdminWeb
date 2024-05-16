@@ -2,13 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/dropdown.css';
 
-function Dropdown() {
-  return (
-    <div className="dropdown">
-      <Link className="dropdownItem" to={'/CCTV'}>실시간 모니터링</Link>
-      <Link className="dropdownItem" to={'/Recording'}>녹화 영상 확인</Link>
-    </div>
-  );
+function Dropdown({ items, onItemClick }) {
+    return (
+        <div className="dropdown">
+            {items.map((item, index) => (
+                <Link key={index} className="dropdownItem" to={item.path} onClick={() => onItemClick(item.label)}>
+                    {item.label}
+                </Link>
+            ))}
+        </div>
+    );
 }
 
 export default Dropdown;
