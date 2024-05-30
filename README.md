@@ -17,4 +17,4 @@ React를 사용하여 개발된 웹페이지입니다.
 <img width="550" alt="image" src="https://github.com/BBangBBang-Project/BBangBBang_AdminWeb/assets/121925620/ad7a0269-47f5-4aaf-83d9-ac920608ea54">
 
 ### 내 정보 화면
-<img width="250" alt="image" src="https://github.com/BBangBBang-Project/BBangBBang_AdminWeb/assets/121925620/b3be92fd-e615-4e8e-a1af-1e83caeed6be">
+<img width="275" alt="image" src="https://github.com/BBangBBang-Project/BBangBBang_AdminWeb/assets/121925620/b3be92fd-e615-4e8e-a1af-1e83caeed6be">
